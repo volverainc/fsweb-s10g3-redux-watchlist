@@ -5,7 +5,7 @@ export default function Movie(props) {
 
   return (
     <div className="flex bg-white shadow-lg items-start">
-      <img src={movie.posterUrl} alt={movie.title} className="max-w-[18rem] w-2/5 block" />
+      <img src={movie.posterUrl} alt={movie.title} className="max-w-[18rem] w-2/5 block max-h-96" />
       <div className="p-8 flex flex-col gap-4 text-sm">
         <div>
           <h2 className="text-2xl">{movie.title}</h2>
